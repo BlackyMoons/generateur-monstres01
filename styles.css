@@ -1,30 +1,30 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, sans-serif;
     background-color: #f9f9f9;
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
+    min-height: 50px;
     margin: 0;
 }
 
 #app {
     text-align: center;
-    max-width: 600px;
-    padding: 20px;
-    border-radius: 8px;
+    max-width: 150px;
+    padding: 5px;
+    border-radius: 20px;
     background-color: #ffffff;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.1);
 }
 
 h1 {
     color: #333;
-    font-size: 2em;
+    font-size: 15px;
 }
 
 button {
-    padding: 10px 20px;
-    font-size: 1.2em;
+    padding: 15px 15px;
+    font-size: 15px;
     color: #fff;
     background-color: #ff66c4;
     border: none;
@@ -36,8 +36,13 @@ button:hover {
     background-color: #ff99d6;
 }
 
-#monster-description {
-    margin-top: 20px;
-    font-size: 1.2em;
-    color: #555;
+.generator-container {
+    width: 100px;
+    max-width: 150px;
+    margin: auto;
+    text-align: center;
+}
+
+p {
+    font-size: 10px;
 }
